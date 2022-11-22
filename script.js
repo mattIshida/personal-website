@@ -94,12 +94,10 @@ const projectDescriptionList = document.getElementsByClassName("projectDescripti
 for(let i = 0; i < projectCardList.length; i++){
     projectCardList[i].addEventListener("click", function(e){
         
-        console.log(projectDescriptionList[i].style.display)
         if (projectDescriptionList[i].style.display){
             projectDescriptionList[i].style.display = "";
         } else {
             projectDescriptionList[i].style.display = "block";
-
         }
         
     })

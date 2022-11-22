@@ -1,21 +1,18 @@
 body .content {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace; 
 }
 .content h1 {
     text-align: center;
     margin: auto;
-    font-family:'Courier New', Courier, monospace;
     
 }
 .content h2 {
     text-align: center;
     margin: auto;
-    font-family:'Courier New', Courier, monospace
 }
 
 .content #presence {
     text-align: center;
-    font-family:'Courier New', Courier, monospace
 }
 
 .content #presence h3 {
@@ -24,12 +21,20 @@ body .content {
 
 #Courier {
     font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Times {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .content #fontChange {
     margin: auto;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .content #Projects {
