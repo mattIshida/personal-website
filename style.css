@@ -1,23 +1,24 @@
 body .content {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
-body .content h1 {
+.content h1 {
     text-align: center;
     margin: auto;
     font-family:'Courier New', Courier, monospace;
     
 }
-body .content h2 {
+.content h2 {
     text-align: center;
     margin: auto;
     font-family:'Courier New', Courier, monospace
 }
 
-body .content #presence {
+.content #presence {
     text-align: center;
     font-family:'Courier New', Courier, monospace
 }
-body .content #presence h3 {
+
+.content #presence h3 {
     margin-top: 0px;
 }
 
@@ -25,16 +26,30 @@ body .content #presence h3 {
     font-weight:bold;
 }
 
-h4 {
-    font-family: 'Times New Roman', Times, serif;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: fantasy;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-body .content #fontChange {
+.content #fontChange {
     margin: auto;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.content #Projects {
+    margin: auto;
+    padding-top: 15px;
+    width: 50%
+}
+
+.content #Projects .projectCard {
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.content #Projects .projectCard .projectTitle{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-top: 5px;
 }
