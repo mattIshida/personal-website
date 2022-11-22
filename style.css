@@ -53,3 +53,7 @@ body .content {
     margin-bottom: auto;
     margin-top: 5px;
 }
+
+.content #Projects .projectCard .projectDescription{
+    display: none;
+}

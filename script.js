@@ -86,3 +86,21 @@ for(let i = 0; i < fontOptionElements.length; i++){
     })
 }
 
+
+//
+const projectCardList = document.getElementsByClassName("projectCard");
+const projectDescriptionList = document.getElementsByClassName("projectDescription");
+
+for(let i = 0; i < projectCardList.length; i++){
+    projectCardList[i].addEventListener("click", function(e){
+        
+        console.log(projectDescriptionList[i].style.display)
+        if (projectDescriptionList[i].style.display){
+            projectDescriptionList[i].style.display = "";
+        } else {
+            projectDescriptionList[i].style.display = "block";
+
+        }
+        
+    })
+}
