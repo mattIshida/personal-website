@@ -70,3 +70,19 @@ arialSelect.addEventListener("click", function(e){
         arialSelect.style.fontWeight="bold";
     }
 })
+
+
+
+//point cursor on hover over font options
+
+const fontOptionElements = document.getElementsByClassName("fontOption");
+
+for(let i = 0; i < fontOptionElements.length; i++){
+    fontOptionElements[i].addEventListener("mouseenter", function(e){
+        document.body.style.cursor = 'pointer';
+    })
+    fontOptionElements[i].addEventListener("mouseleave", function(e){
+        document.body.style.cursor = 'auto';
+    })
+}
+
