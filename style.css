@@ -1,22 +1,38 @@
-body .content {
-    font-family:'Courier New', Courier, monospace; 
+body{
+
+    /* background: #F8F8FF; */
+    /* background: #FFFAF0; */
+    background: #FFFAFA;
+    /* FFFAF0 */
+
 }
-.content h1 {
+
+.content {
+    font-family:'Courier New', Courier, monospace; 
+    margin-top: 25px;
+}
+
+h1 {
     text-align: center;
     margin: auto;
     
 }
-.content h2 {
+h2 {
     text-align: center;
     margin: auto;
 }
 
-.content #presence {
+#presenceContainer {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
     text-align: center;
 }
 
-.content #presence h3 {
-    margin-top: 0px;
+.presenceLink {
+    padding: 10px 10px;
+    font-weight: bold;
 }
 
 #Courier {
@@ -32,33 +48,96 @@ body .content {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.content #fontChange {
+#fontChange {
     margin: auto;
     text-align: center;
 }
 
-.content #Projects {
+#Projects {
     margin: auto;
     padding-top: 15px;
-    width: 50%
+    /* width: 50%; */
 }
 
-.content #Projects .projectCard {
+.projectCard {
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     border: 3px;
     border-color: black;
     border-style: solid;
+    max-width: 600px;
 }
 
-.content #Projects .projectCard .projectTitle{
+
+.projectHeader{
+    display: flex;
+    position: relative
+}
+.projectTitle{
     text-align: center;
-    font-style: italic;
     font-weight: bold;
-    margin-bottom: auto;
     margin-top: 5px;
+    width: 100%;
+    transform: translateX(-12px)
 }
 
-.content #Projects .projectCard .projectDescription{
+.projectOpenClose {
+    font-size: 18pt;
+    position: relative;
+    left: 0;
+    width: 24px
+    /* margin-right: px; */
+    /* background-color: red; */
+    /* position: relative;
+    margin-right: 0px; */
+}
+
+.projectDescription{
     display: none;
+    margin: 10px 15px;
+}
+
+.projectLinkContainer {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectLink {
+
+    margin: 0px 10px;
+    padding-top: 4px;
+    text-align: bottom;
+
+}
+
+.projectLink:last-of-type {
+
+    margin-right: 0px;
+}
+
+.superscript {
+    font-size: 8pt;
+    padding-top: 3px;
+    text-indent: -1px;
+    vertical-align: super;
+}
+
+.fineprint{
+    display: flex;
+    margin-top: 15px;
+    /* margin-left: 5px; */
+    font-size: 10pt
+
+}
+
+.fineprint .superscript {
+    padding-top: 0px;
+    text-indent: 0px;
+}
+
+.fineprintText{
+    margin-left: 1px;
 }

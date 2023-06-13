@@ -2,33 +2,75 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./style.css" />
-        <title>My Personal Website</title>
+        <title>Matt Ishida</title>
     </head>
     <body>
         <div class="content">
             <h1>Matt Ishida</h1>
-            <h2 id="description">Software engineering student</h2>
-            <div id="presence">
-                <h3>github: <a href="https://github.com/mattIshida">mattIshida</a></h3>
+            <h2 id="description">Software engineer</h2>
+            <div id="presenceContainer">
+                <div class="presenceLink"><a href="https://www.linkedin.com/in/matthew-ishida">LinkedIn</a></div>
+                <div class="presenceLink"><a href="https://github.com/mattIshida">GitHub</a></div>
+                <div class="presenceLink"><a href="dev.to/mattIshida">Blog</a></div>
             </div>
-            <p id="fontChange">Change the font: 
+            <!-- <p id="fontChange">Change the font: 
                 <span id="Times" class="fontOption">Times</span> | 
                 <span id="Arial" class="fontOption">Arial</span> | 
                 <span id="Courier" class="fontOption">Courier</span> 
-            </p>
+            </p> -->
             <div id="Projects">
                 <h2>Projects</h2>
                 <div class = "projectCard">
-                    <div class = "projectTitle">Flawless software</div>
-                    <div class = "projectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                     
+                    <div class ="projectHeader">
+                        <div class="projectOpenClose">+</div>
+                        <div class = "projectTitle">HabitBuilder</div>
+                    </div>
+                    <div class = "projectDescription">
+                        <div class="projectDescriptionText">A web app that encourages reading with daily challenges, a timer, intention-setting, and social accountability. Includes integrations with Stripe and Google OAuth2. Built with React, Redux, RTK Query, and Ruby on Rails.</div>
+                    
+                        <div class="projectLinkContainer">
+
+                            <div class = "projectLink"><a href="https://github.com/mattIshida/habit-builder">GitHub</a></div>
+
+                        </div>
+                    </div>
                 </div>
                 <div class = "projectCard">
-                    <div class = "projectTitle">Amazing app</div>
-                    <div class = "projectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+                    <div class ="projectHeader">
+                        <div class="projectOpenClose">+</div>
+                        <div class = "projectTitle">VoteTracker</div>
+                    </div>
+                    <div class = "projectDescription">
+
+                        <div class="projectDescriptionText">A "win-loss" visualization of voting records in the U.S. Senate and House of Representatives, with filters to identify atypical votes. Built with NextJS, Ruby on Rails, Bootstrap, Docker, and AWS.</div>
+                    
+                        <div class="projectLinkContainer">
+
+                            <div class="projectLink"><a href="https://github.com/mattIshida/votetracker">GitHub</a></div>
+                            <div class="projectLink"><a href="https://usvotetracker.com">Live Site</a></div>
+                        </div>
+                    </div>
                 </div>
                 <div class = "projectCard">
-                    <div class = "projectTitle">Elegant database</div>
-                    <div class = "projectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+                    <div class ="projectHeader">
+                        <div class="projectOpenClose">+</div>
+                        <div class = "projectTitle">National Park Directory</div>
+                    </div>
+                    <div class = "projectDescription">
+                        <div class="projectDescriptionText">A guide to 400+ U.S. National Park Service sites built to emphasize discoverability, with location-based filtering. Uses official NPS data. Built with React and JSON Server.</div>
+                        
+                        <div class="projectLinkContainer">
+
+                            <div class="projectLink"><a href="https://github.com/mattIshida/phase-2-project">GitHub</a></div>
+                            <div class="projectLink"><a href="https://national-park-directory.onrender.com/parks">Live Site</a></div><span class="superscript">*</span>
+                        </div>
+                        <div class="fineprint"><span class="superscript">*</span><span class="fineprintText">Please allow ~30 sec. after initial load for Render server to start up.</span></div>
+                
+                    </div>
                 </div>
             </div>
         </div>
